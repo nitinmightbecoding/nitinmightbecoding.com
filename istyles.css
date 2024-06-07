@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{  
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    margin: 0;
+}
+
+nav li{
+    display: inline;
+    font-family: "Montserrat";
+}
+
+nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    transition: color 0.3s;
+    transition: background-color 0.3s;
+}
+
+nav a:hover{
+    color: black;
+    background-color: rgb(255, 255, 255, 0.7);
+}
+
+.main-nav{
+    position: relative;
+    text-align: center;
+    font-size: 1.1em;
+    border-bottom: 1px solid whitesmoke
+}
+
+.kmore{
+    color: white;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+.kmore:hover{
+    color: red;
+}
+
+.main-header{
+    position: relative;
+    background: rgba(0, 0, 0, 0.7);
+    padding-bottom: 30px;
+    border-bottom: 1px solid whitesmoke
+}
+
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.596);
+    text-align: center;
+    letter-spacing: 18px;
+    margin: 0;
+    padding-top: 1%;
+    font-size: 2em;
+    word-wrap: break-word;
+    transition: 0.5s;
+}
+
+.title:hover{
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+
+.big-title{
+    font-size: 4em;
+}
+
+.content-section{
+    margin: 1em;
+}
+
+.container{
+    position: relative;
+    
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header{
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 10px;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+.timeline {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    font-family: "Fira Sans", sans-serif;
+    color: #ffffff;
+  }
+  
+  .timeline__component {
+    margin: 0 20px 20px 20px;
+  }
+  
+  .timeline__component--bg {
+    padding: 1.5em;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  .timeline__component--bg:hover{
+    transform: scale(1.05);
+  }
+  
+  /* LEAVE TILL LAST */
+  .timeline__component--bottom {
+    margin-bottom: 0;
+  }
+  
+  .timeline__middle {
+    position: relative;
+    background: #ffffff;
+  }
+  
+  .timeline__point {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: #ffffff;
+    border-radius: 50%;
+  }
+  
+  /* LEAVE TILL LAST */
+  .timeline__point--bottom {
+    top: initial;
+    bottom: 0;
+  }
+  
+  .timeline__date--right {
+    text-align: right;
+  }
+  
+  .timeline__title {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .timeline__paragraph {
+    line-height: 1.5;
+  }
+
+  .main-footer{
+    position: relative;
+    
+    background-color: black;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.copyright{
+    margin: 0;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-bottom: 1em;
+}

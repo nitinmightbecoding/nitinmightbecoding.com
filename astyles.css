@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{  
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    margin: 0;
+}
+
+nav li{
+    display: inline;
+    font-family: "Montserrat";
+}
+
+nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    transition: color 0.3s;
+    transition: background-color 0.3s;
+}
+
+nav a:hover{
+    color: black;
+    background-color: rgb(255, 255, 255, 0.7);
+}
+
+.main-nav{
+    position: relative;
+    text-align: center;
+    font-size: 1.1em;
+    border-bottom: 1px solid whitesmoke
+}
+
+.kmore{
+    color: white;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+.kmore:hover{
+    color: red;
+}
+
+.main-header{
+    position: relative;
+    background: rgba(0, 0, 0, 0.7);
+    padding-bottom: 30px;
+    border-bottom: 1px solid whitesmoke
+}
+
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.596);
+    text-align: center;
+    letter-spacing: 18px;
+    margin: 0;
+    padding-top: 1%;
+    font-size: 2em;
+    word-wrap: break-word;
+    transition: 0.5s;
+}
+
+.title:hover{
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+
+.big-title{
+    font-size: 4em;
+}
+
+.content-section{
+    margin: 1em;
+}
+
+.container{
+    position: relative;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header{
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 10px;
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    font-size: 2em;
+}
+
+.proj-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 0.2em;
+}
+
+.proj-desc{
+    color: white;
+    word-wrap: break-word;
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 1em;
+    margin: 2px;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    border: 2px solid black;
+    transition: background-color 0.4s;
+}
+
+.proj-desc:hover{
+    border: 4px solid black;
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+.proj-desc:last-child{
+    margin-bottom: 5em;
+}
+
+.btn{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    transition: color 0.3s;
+    transition:  background-color 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.main-footer{
+    position: relative;
+    
+    background-color: black;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.copyright{
+    margin: 0;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-bottom: 1em;
+}
